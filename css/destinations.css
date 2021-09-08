@@ -1,0 +1,52 @@
+.destinations__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.destinations__title h2 {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 36px;
+}
+  
+.destinations__title p {
+    font-family: "Inter";
+    font-weight: 600;
+    color: #fb8f1d;
+    font-size: 17px;
+}
+  
+.destinations__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination__item-title span {
+    font-size: 15px;
+    color: #4a4c53;
+}
+  
+.destinations__item {
+    position: relative;
+}
+  
+.destination__item-title {
+    font-family: "Inter";
+    border-radius: 0px 6px 0px 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: black;
+    background-color: #fff;
+    height: 56px;
+    width: 110px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+  
+.destination__item-title b {
+    font-size: 17px;
+}
